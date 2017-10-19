@@ -1,0 +1,17 @@
+* {
+	font-family: 'Arvo', serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%; 
+}
+
+#me-circle {
+	border-radius: 50%;
+	width: 10em;
+}
+
+.highlight { 
+	background-color:#FFFF00; 
+}
