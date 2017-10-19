@@ -3,11 +3,25 @@
 }
 
 html, body {
-  height: 100%;
-  width: 100%;
+ 	height: 100%;
+ 	width: 100%;
+	overflow: hidden;
  }
 
-#intro-body {
+ a:link {
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ a:hover {
+    background-color: #4aa4ff;
+} 
+
+a:visited {
+    color: black;
+}
+
+#header-body {
 	margin-top: 5rem;
 }
 
@@ -34,8 +48,13 @@ html, body {
 #me-circle {
 	border-radius: 50%;
 	width: 10rem;
+	border: .5em solid #FF1D8E;
 }
 
-.highlight { 
-	background-color:#FFFF00; 
+.highlight-yel { 
+	background-color: #FFFF00; 
+}
+
+.highlight-blu {
+	background-color: #4aa4ff;
 }
