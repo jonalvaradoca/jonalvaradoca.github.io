@@ -4,7 +4,6 @@
 
 html, body {
 	height: 100%;
- 	width: 100%;
  }
 
  a:link {
@@ -14,15 +13,14 @@ html, body {
 
  a:hover {
     background-color: #4aa4ff;
-} 
+}
 
 a:visited {
     color: black;
 }
 
 #home-intro {
-	margin-top: 5rem;
-	width: 100%;
+	margin-top: 3rem;
 }
 
 #intro {
@@ -46,18 +44,48 @@ a:visited {
 	border: .5rem solid #FF1D8E;
 }
 
-#resume {
+.standard-body {
+	width: 80%;
 	margin-left: 10%;
+}
+
+#resume {
 	margin-top: 5rem;
+	width: 100%;
 }
 
-#r-heading {
+.body-heading {
 	margin: 0 auto;
-	width: 25%;
 }
 
-.highlight-yel { 
-	background-color: #FFFF00; 
+.experience-card {
+	height: 5rem;
+}
+
+.asset-circle {
+	float: left;
+	width: 5rem;
+	border-radius: 50%;
+}
+
+.asset-list {
+	margin-left: 2rem;
+	font-size: 1.25rem;
+}
+
+.asset-source {
+	left: 1rem;
+	position: relative;
+	font-size: 1.25rem;
+}
+
+.right {
+	float: right;
+	position: relative;
+}
+
+.highlight-yel {
+	background-color: #FFFF00;
 }
 
 .highlight-blu {
