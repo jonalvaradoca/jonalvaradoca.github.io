@@ -1,7 +1,3 @@
-* {
-	font-family: 'Arvo', serif;
-}
-
 html, body {
 	height: 100%;
  }
@@ -19,8 +15,16 @@ a:visited {
     color: black;
 }
 
+hr {
+	background-color: #FF1D8E;
+	color: #FF1D8E;
+	border: 0 none;
+	height: .15rem;
+}
+
 #home-intro {
 	margin-top: 3rem;
+	font-family: 'Arvo', serif;
 }
 
 #intro {
@@ -41,12 +45,24 @@ a:visited {
 #me-circle {
 	border-radius: 50%;
 	width: 10rem;
+	left: 50%;
 	border: .5rem solid #FF1D8E;
+}
+
+.summary-body {
+	width: 60%;
+	margin-left: 20%;
+	font-family: 'Arvo', serif;
 }
 
 .standard-body {
 	width: 80%;
 	margin-left: 10%;
+	font-family: 'Lato', sans-serif;
+}
+
+.summary {
+	line-height: 3rem;
 }
 
 #resume {
@@ -65,12 +81,13 @@ a:visited {
 .asset-circle {
 	float: left;
 	width: 5rem;
+	height: 5rem;
 	border-radius: 50%;
 }
 
 .asset-list {
 	margin-left: 2rem;
-	font-size: 1.25rem;
+	margin-bottom: 2rem;
 }
 
 .asset-source {
