@@ -13,11 +13,10 @@ html, body {
  a:link {
  	text-decoration: none;
  	color: black;
- 	background-color: #80CC33;
  }
 
  a:hover {
-    background-color: #22B2DA;
+    background-color: #80CC33;
 }
 
 a:visited {
