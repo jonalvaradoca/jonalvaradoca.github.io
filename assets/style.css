@@ -1,3 +1,11 @@
+::selection {
+  background: #80CC33; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #80CC33; /* Gecko Browsers */
+}
+
 html, body {
 	height: 100%;
  }
@@ -5,10 +13,11 @@ html, body {
  a:link {
  	text-decoration: none;
  	color: black;
+ 	background-color: #80CC33;
  }
 
  a:hover {
-    background-color: #4aa4ff;
+    background-color: #22B2DA;
 }
 
 a:visited {
@@ -22,9 +31,13 @@ hr {
 	height: .15rem;
 }
 
+li{
+  margin: 10px 0;
+}
+
 #home-intro {
 	margin-top: 3rem;
-	font-family: 'Arvo', serif;
+	font-family: 'Lato', serif;
 }
 
 #intro {
@@ -52,7 +65,7 @@ hr {
 .summary-body {
 	width: 60%;
 	margin-left: 20%;
-	font-family: 'Arvo', serif;
+	font-family: 'Lato', serif;
 }
 
 .standard-body {
@@ -107,4 +120,8 @@ hr {
 
 .highlight-blu {
 	background-color: #22B2DA;
+}
+
+.highlight-green {
+	background-color: #80CC33;
 }
